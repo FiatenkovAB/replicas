@@ -1,0 +1,41 @@
+.content_pages{
+    display: flex;
+    padding: 1%;
+    width: clamp(400px 100% 1440px);
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background-color: rgb(231, 199, 199)
+}
+.content_text{
+    align-content: center;
+    border: 1px solid rgb(116, 113, 108);
+    width: clamp(400px 50% 540px);
+    height:20rem;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(231, 199, 199);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    h1{
+        position: relative;
+        top: -30%;
+    
+    }
+    button{
+        position: relative;
+        bottom: -30%;
+        width: 50%;
+        height: 10%;
+        text-align: center;
+        border-radius: 10px;
+        background-color: aquamarine;
+    }
+}
+.content_img{
+
+    img{
+        width:400px
+    }
+}

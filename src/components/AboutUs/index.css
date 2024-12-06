@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.about_img{
+    width: 40%;
+    position: relative;
+    margin: 4%;
+    .insideImg{
+        position: absolute;
+        top: -16%;
+        left: 10%;
+    }
+}
+.about_content{
+    gap: 10%;
+    line-height: 2rem;
+    img{
+        width: 80px;
+        height: 80px;
+        margin: 2%;
+    }
+}

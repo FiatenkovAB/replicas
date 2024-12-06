@@ -1,0 +1,20 @@
+.page{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.content_img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_nuv{
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+    a{
+        margin: 1%;
+    }
+}
+

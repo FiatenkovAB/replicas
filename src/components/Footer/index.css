@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+    width: 100%;
+    height: 20%;
+    background-color:rgb(231, 199, 199);
+
+    .footer_info{
+        display: grid;
+        justify-content: space-between;
+        grid-template-areas: "a a a" "b b b" "c c c";
+        gap: 20px;
+        
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        margin-right: 10px;
+    }
+  
+}

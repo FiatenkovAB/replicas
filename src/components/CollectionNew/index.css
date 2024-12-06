@@ -1,0 +1,13 @@
+.collection{
+    background: url("../../../public/images/Collection/newCollection.png");
+    height: 90vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+.collection_content{
+    width: 50%;
+    color: azure;
+    transform: translate(50%, 50%);
+    line-height: 2em;
+
+  }
